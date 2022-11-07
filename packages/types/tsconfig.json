@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "emitDeclarationOnly": true,
+    "outDir": "gen",
+    "declaration": true,
+    "plugins": [
+      {
+        "transform": "typescript-json/lib/transform"
+      }
+    ]
+  }
+}

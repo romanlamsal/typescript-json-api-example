@@ -1,0 +1,28 @@
+{
+  "name": "@example/types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gen/index.js",
+  "typings": "gen/typings.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/node": "^18.11.9",
+    "rollup": "^3.2.5",
+    "ts-node": "^10.9.1",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.8.4",
+    "typescript-json": "^3.3.20"
+  },
+  "devDependencies": {
+    "vitest": "^0.24.5"
+  }
+}
